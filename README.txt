@@ -10,7 +10,7 @@ Upload these files to the ROOT of your GitHub Pages repository:
 Keep all five files together in the repository root. Replace existing index.html,
 style.css, and script.js when GitHub asks. Add profile.jpg and the PDF.
 
-The site uses your supplied portrait and links to Instagram @fitnessgadwal.
+The site uses your supplied portrait and links to Instagram @fitgadwal.
 The resume is an initial profile draft based on details currently available.
 Please review it and add a professional email/contact details before job applications.
 
