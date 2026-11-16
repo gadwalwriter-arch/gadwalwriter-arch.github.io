@@ -1,19 +1,18 @@
-SURendra GADWAL — PORTFOLIO WEBSITE
+SURendra GADWAL — UPDATED PORTFOLIO
 
-Files:
-- index.html: website content
-- style.css: responsive design
-- script.js: mobile navigation and current year
+Upload these files to the ROOT of your GitHub Pages repository:
+- index.html
+- style.css
+- script.js
+- profile.jpg
+- Surendra_Gadwal_Resume.pdf
 
-HOW TO VIEW:
-1. Extract this ZIP.
-2. Open index.html in Chrome.
+Keep all five files together in the repository root. Replace existing index.html,
+style.css, and script.js when GitHub asks. Add profile.jpg and the PDF.
 
-BEFORE PUBLISHING, PERSONALIZE THESE:
-1. Replace YOUR_EMAIL@example.com in index.html with your real email.
-2. Replace the Instagram link with your profile URL if you want it shown.
-3. Add your own photo, real skills, completed projects, and resume.
-4. Check all details before publishing.
+The site uses your supplied portrait and links to Instagram @fitnessgadwal.
+The resume is an initial profile draft based on details currently available.
+Please review it and add a professional email/contact details before job applications.
 
-This is a front-end starter portfolio. The contact button opens an email app;
-it does not yet save messages to a database or include an admin panel.
+To update: open your repository > Add file > Upload files, select the five files,
+then Commit changes. GitHub Pages will redeploy automatically.

@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Surendra Gadwal — BCA student and aspiring web developer." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Surendra Gadwal — BCA student and aspiring web developer from Rajasthan, India.">
+  <meta name="theme-color" content="#080d18">
   <title>Surendra Gadwal | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="glow glow-one"></div><div class="glow glow-two"></div>
-  <header class="topbar">
-    <a class="brand" href="#home"><span class="brand-mark">SG</span> <span>Surendra<span class="accent">.</span></span></a>
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="header">
+    <a class="logo" href="#home"><span>SG</span> Surendra<span class="dot">.</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav">
-      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact me ↗</a>
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Resume</a>
+      <a class="nav-contact" href="#contact">Let's talk ↗</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & OPPORTUNITIES</div>
-        <p class="hello">Hello, I'm</p>
-        <h1>Surendra<br><span class="gradient-text">Gadwal.</span></h1>
-        <h2>BCA Student <span class="muted">|</span> Aspiring Web Developer</h2>
-        <p class="intro">I’m building my skills in web development and turning ideas into clean, responsive digital experiences. Welcome to my portfolio.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
-          <a class="button secondary" href="#contact">Let's connect</a>
+    <section class="hero wrap" id="home">
+      <div class="hero-content">
+        <div class="availability"><i></i> LEARNING • BUILDING • GROWING</div>
+        <p class="intro-line">Hello, I'm</p>
+        <h1>Surendra<br><span class="gradient">Gadwal.</span></h1>
+        <h2>BCA Student <b>|</b> Aspiring Web Developer</h2>
+        <p class="hero-text">I’m a computer applications student who enjoys learning technology and creating clean, responsive web experiences. This is my space to share my journey, skills, and projects.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-outline" href="#contact">Connect with me</a>
         </div>
-        <div class="quick-facts"><span>🎓 BCA Student</span><span>📍 Rajasthan, India</span></div>
+        <div class="quick"><span>🎓 BCA Student</span><span>📍 Rajasthan, India</span></div>
       </div>
-      <div class="hero-card-wrap">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="profile-card">
-          <div class="card-top"><span>MY PORTFOLIO</span><span class="live-pill">● ONLINE</span></div>
-          <div class="avatar">SG</div>
-          <h3>Surendra Gadwal</h3>
-          <p>Student • Future Developer</p>
-          <div class="card-divider"></div>
-          <div class="card-line"><span>Focus</span><b>Web Development</b></div>
-          <div class="card-line"><span>Education</span><b>Bachelor of Computer Applications</b></div>
-          <div class="card-line"><span>Based in</span><b>Rajasthan, India</b></div>
-          <div class="code-chip">&lt; Build • Learn • Grow /&gt;</div>
-        </div>
-        <div class="float-tag tag-one">HTML · CSS · JS</div><div class="float-tag tag-two">Always learning ✦</div>
+      <div class="portrait-area">
+        <div class="portrait-ring"></div>
+        <div class="portrait-frame"><img src="profile.jpg" alt="Portrait of Surendra Gadwal"></div>
+        <div class="floating-chip chip-top">WEB DEVELOPMENT</div>
+        <div class="floating-chip chip-bottom"><span class="pulse"></span> Open to learning opportunities</div>
+        <div class="photo-caption"><b>Surendra Gadwal</b><small>Student • Future Developer</small></div>
       </div>
     </section>
 
-    <section class="section about-section" id="about">
-      <div class="section-label">01 / ABOUT ME</div>
-      <div class="section-heading"><h2>A little about <span class="gradient-text">me.</span></h2><p>Curious mind. Consistent effort. One project at a time.</p></div>
+    <section class="section wrap" id="about">
+      <div class="kicker">01 / ABOUT ME</div>
+      <div class="section-title"><h2>Curious by nature.<br><span class="gradient">Driven to create.</span></h2><p>A little about my background and what I’m working towards.</p></div>
       <div class="about-grid">
-        <div class="about-text"><p>I’m a Bachelor of Computer Applications (BCA) student at Maharshi Dayanand Saraswati University, Ajmer. I’m interested in technology and currently developing my practical skills in web development.</p><p>My goal is to keep learning, create useful projects, and prepare for opportunities where I can grow as a developer.</p></div>
-        <div class="info-panel"><div><span>EDUCATION</span><b>BCA</b><small>MDSU, Ajmer</small></div><div><span>LOCATION</span><b>Rajasthan</b><small>India</small></div><div><span>CURRENT GOAL</span><b>Web Developer</b><small>Learn • Build • Improve</small></div></div>
+        <div class="about-copy">
+          <p>I’m pursuing a Bachelor of Computer Applications (BCA) at Maharshi Dayanand Saraswati University, Ajmer. I’m interested in web development and building a strong foundation in computer science.</p>
+          <p>I believe in learning by doing. I’m working on my practical skills, exploring new tools, and creating projects that help me grow step by step.</p>
+        </div>
+        <div class="detail-card">
+          <div><small>EDUCATION</small><strong>Bachelor of Computer Applications</strong><span>MDSU, Ajmer</span></div>
+          <div><small>LOCATION</small><strong>Rajasthan</strong><span>India</span></div>
+          <div><small>CAREER INTEREST</small><strong>Web Development</strong><span>Front-end development</span></div>
+          <div><small>MY APPROACH</small><strong>Learn by building</strong><span>Consistent improvement</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="skills">
-      <div class="section-label">02 / MY SKILLS</div>
-      <div class="section-heading"><h2>Tools I'm <span class="gradient-text">learning.</span></h2><p>These are starter skill areas—update them as you gain experience.</p></div>
-      <div class="skills-grid">
-        <div class="skill"><span class="skill-icon orange">5</span><div><b>HTML5</b><small>Page structure</small></div><span class="skill-level">Learning</span></div>
-        <div class="skill"><span class="skill-icon blue">✳</span><div><b>CSS3</b><small>Layouts & styling</small></div><span class="skill-level">Learning</span></div>
-        <div class="skill"><span class="skill-icon yellow">JS</span><div><b>JavaScript</b><small>Web interactivity</small></div><span class="skill-level">Learning</span></div>
-        <div class="skill"><span class="skill-icon green">⌘</span><div><b>Programming</b><small>Problem solving</small></div><span class="skill-level">Growing</span></div>
+    <section class="section wrap" id="skills">
+      <div class="kicker">02 / SKILLS</div>
+      <div class="section-title"><h2>My learning <span class="gradient">toolkit.</span></h2><p>Technologies I’m currently learning and practising.</p></div>
+      <div class="skills">
+        <article class="skill-card"><div class="skill-icon html">5</div><div><strong>HTML5</strong><span>Web page structure</span></div><em>Learning</em></article>
+        <article class="skill-card"><div class="skill-icon css">✳</div><div><strong>CSS3</strong><span>Styling & responsive layouts</span></div><em>Learning</em></article>
+        <article class="skill-card"><div class="skill-icon js">JS</div><div><strong>JavaScript</strong><span>Interactive web pages</span></div><em>Learning</em></article>
+        <article class="skill-card"><div class="skill-icon code">⌘</div><div><strong>Problem solving</strong><span>Building a coding foundation</span></div><em>Growing</em></article>
       </div>
     </section>
 
-    <section class="section" id="projects">
-      <div class="section-label">03 / SELECTED WORK</div>
-      <div class="section-heading"><h2>Things I'm <span class="gradient-text">building.</span></h2><p>Your projects will appear here as you complete them.</p></div>
-      <div class="project-grid">
-        <article class="project-card featured"><div class="project-art art-one"><span class="window-dots">● ● ●</span><div class="mock-title">Your next<br><b>great idea.</b></div><div class="mock-bars"><i></i><i></i><i></i></div></div><div class="project-info"><div class="project-type">STARTER PROJECT</div><h3>Personal Portfolio</h3><p>A responsive website to introduce yourself, showcase your skills, and share your work.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
-        <article class="project-card project-placeholder"><div class="plus">＋</div><div class="project-info"><div class="project-type">COMING NEXT</div><h3>Your next project</h3><p>Add your college project, web app, or coding experiment here.</p><div class="tags"><span>Project idea</span><span>In progress</span></div></div></article>
+    <section class="section wrap" id="projects">
+      <div class="kicker">03 / PROJECTS</div>
+      <div class="section-title"><h2>Learning through <span class="gradient">projects.</span></h2><p>A place to showcase practical work as I complete it.</p></div>
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-preview"><div class="preview-top"><span>● ● ●</span><span>PORTFOLIO / 01</span></div><div class="preview-copy">Build your<br><b>online presence.</b></div><div class="preview-lines"><i></i><i></i><i></i></div></div>
+          <div class="project-body"><small>PERSONAL WEBSITE</small><h3>Personal Portfolio Website</h3><p>A responsive personal website introducing me, my education, learning skills, and projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card next-project"><div class="plus">＋</div><small>NEXT PROJECT</small><h3>More coming soon</h3><p>I’ll add my college and development projects here as I complete them.</p><span class="tag-soon">IN PROGRESS</span></article>
       </div>
     </section>
 
-    <section class="contact-section section" id="contact">
-      <div class="section-label">04 / CONTACT</div>
-      <div class="contact-box"><div><p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p><h2>Let's create<br><span class="gradient-text">something good.</span></h2><p class="contact-copy">I'm open to connecting, learning, and discussing new opportunities.</p></div><div class="contact-actions"><a class="button primary" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a><p>Replace this email with your real email address.</p><a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div>
+    <section class="section wrap" id="resume">
+      <div class="resume-card">
+        <div><div class="kicker">04 / RESUME</div><h2>Want to know more<br>about my journey?</h2><p>Download my current profile summary. I’ll keep updating it as I gain experience and complete more projects.</p></div>
+        <a class="btn btn-primary" href="Surendra_Gadwal_Resume.pdf" download>Download Resume <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="section wrap" id="contact">
+      <div class="contact-card">
+        <div><div class="kicker">05 / GET IN TOUCH</div><h2>Let’s connect<br><span class="gradient">and grow.</span></h2><p>Have a learning opportunity, project idea, or just want to connect? Find me on Instagram.</p></div>
+        <a class="btn btn-primary" href="https://www.instagram.com/fitnessgadwal/" target="_blank" rel="noopener noreferrer">Instagram @fitnessgadwal ↗</a>
+      </div>
     </section>
   </main>
-  <footer><a class="brand" href="#home"><span class="brand-mark">SG</span> Surendra<span class="accent">.</span></a><span>Designed with purpose · © <span id="year"></span> Surendra Gadwal</span><a href="#home">Back to top ↑</a></footer>
+  <footer class="footer"><a class="logo" href="#home"><span>SG</span> Surendra<span class="dot">.</span></a><p>Designed with purpose · © <span id="year"></span> Surendra Gadwal</p><a href="#home">Back to top ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
